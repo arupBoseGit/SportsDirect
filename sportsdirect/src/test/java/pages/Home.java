@@ -45,7 +45,7 @@ public class Home extends BasePage{
 		MoveToElement(driver,slidernavigate);
 		//driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		//MoveToElement(driver,nike);
-		nike.click();
+		//nike.click();
 		
 	}
 }

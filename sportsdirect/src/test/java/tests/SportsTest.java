@@ -18,12 +18,12 @@ public class SportsTest extends TestBase{
 		home.ClickToLogin();
 		login = new Login(getDriver());
 		login.performLogin("arupstudy2020@gmail.com", "Study2020");
-//		home = new Home(getDriver());
+		home = new Home(getDriver());
 //		home.navigateSliders();
 	}
 	@Test
 	public void selectMensShoes() throws Exception {
-		home = new Home(getDriver());
+		//home = new Home(getDriver());
 		home.navigateSliders();
 	}
 }

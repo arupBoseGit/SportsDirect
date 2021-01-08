@@ -6,8 +6,7 @@
     <classes>
       <class name="tests.SportsTest">
         <methods>
-          <include name="selectMensShoes"/>
-          <include name="verifySPortLogin"/>
+          <include name="MenShoesSelection"/>
           <include name="launchApp"/>
           <include name="initDriver"/>
         </methods>
